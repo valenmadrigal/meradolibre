@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #EAC926;
+    color: #17202A;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #17202A;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.search-bar {
+    background-color:#17202A;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+
+.login-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.login-bar a {
+    color:#17202A;
+    text-decoration: none;
+    font-size: 12px;
+}
+.burger-menu {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.burger-menu i {
+    font-size: 24px; /* Tamaño del ícono */
+    color: #ebebeb; /* Color de las barras del ícono */
+}
+
+/* Estilo al hacer hover sobre el menú hamburguesa */
+.burger-menu:hover {
+    background-color: #1259c3; /* Cambia el color de fondo al hacer hover */
+}
+nav.active a {
+    color: #ebebeb;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+footer div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+footer i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.product-item{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
